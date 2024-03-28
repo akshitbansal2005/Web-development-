@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS object Fit and position</title>
+    <style>
+        .container{
+            height: 634px;
+            width: 688px;
+            border: 2px solid black;
+            /* background-color: azure; */
+            background-position: centre centre;
+            background-clip: border-box;
+
+            background-image: url("https://photutorial.com/wp-content/uploads/2023/04/Featured-image-AI-image-generators-by-Midjourney-700x350.png");
+            background-repeat: no-repeat;
+        }
+
+        img{
+            height: 634px;
+            width: 687px;
+            /* object-fit: cover; */
+            object-fit: contain;
+            object-position:  10px 20px;
+            /* object-position:  top left; */
+            /* object-fit: contain; */
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+<!-- <img src="https://cdn.photographylife.com/wp-content/uploads/2014/09/Nikon-D750-Image-Samples-2.jpg" alt=""> -->
+
+        </div>
+    </div>
+    
+</body>
+</html>
